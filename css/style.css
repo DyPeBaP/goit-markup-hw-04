@@ -298,9 +298,12 @@ img {
 .section-image {
   padding-bottom: 94px;
 }
+
 .portfolio-nav {
-  margin-top: 94px;
   margin-bottom: 50px;
+}
+
+.portfolio-nav-list {
   display: flex;
   justify-content: center;
 }
@@ -316,6 +319,8 @@ img {
   background-color: #f5f4fa;
 }
 .section-portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .portfolio-padding {
@@ -345,7 +350,6 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: -30px;
   margin-right: -30px;
-  padding-bottom: 30px;
 }
 
 .portfolio-photos {
