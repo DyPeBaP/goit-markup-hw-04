@@ -127,10 +127,18 @@ img {
 }
 .section-hero {
   background-color: #2f303a;
-  width: auto;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+.hero-background {
+  background-image: url(../images/Img-work.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-text {
