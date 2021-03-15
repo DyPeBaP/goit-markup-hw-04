@@ -109,6 +109,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .nav-link:not(:last-child) {
   margin-left: auto;
@@ -381,3 +384,26 @@ img {
   cursor: pointer;
 }
 /*======END PORTFOLIO======*/
+
+/*===SVG===*/
+
+.social-icons-phone {
+  width: 10px;
+  height: 16px;
+  color: #757575;
+  margin-right: 10px;
+}
+
+.social-icons-mails {
+  width: 16px;
+  height: 12px;
+  color: #757575;
+  margin-right: 10px;
+}
+
+.social-icons-phone-mails:focus,
+.social-icons-phone-mails:hover {
+  fill: #2196f3;
+}
+
+/*===END SVG===*/
