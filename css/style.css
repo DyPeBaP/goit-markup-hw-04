@@ -165,7 +165,7 @@ img {
 }
 .section-hero {
   background-color: #2f303a;
-  /*max-width: 1600px;*/
+  max-width: 1600px;
   margin: 0 auto;
   height: 600px;
   padding-top: 200px;
