@@ -411,8 +411,8 @@ img {
   background-color: #f5f4fa;
 }
 .section-portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-padding {
@@ -451,8 +451,8 @@ img {
 
 .portfolio-photos-shadows:hover,
 .portfolio-photos-shadows:focus {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.6), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 /*======END PORTFOLIO======*/
@@ -559,10 +559,12 @@ img {
 .partner-logo {
   fill: #afb1b8;
 }
-.partners-link:hover .partner-logo {
+.partners-link:hover .partner-logo,
+.partners-link:focus .partner-logo {
   fill: #2196f3;
 }
-.partners-link:hover .partners-thumb {
+.partners-link:hover .partners-thumb,
+.partners-link:focus .partners-thumb {
   border: 1px solid #2196f3;
 }
 
@@ -579,7 +581,7 @@ img {
   margin-bottom: 50px;
 }
 
-.partners .container {
+.partners {
   padding-top: 94px;
   padding-bottom: 94px;
 }
